@@ -1,4 +1,4 @@
-<mxfile modified="2021-03-22T12:10:24.572Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54" etag="PfVMndKtwJ_KzJVkLr8M" version="14.4.9" type="github">
+<mxfile modified="2021-03-26T15:29:31.800Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54" etag="JvndfO0RIf5pzzRm6TxX" version="14.4.9" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="sCyOnHdx_f6JQvQr4W9k-720" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="88.5" y="300" width="22.67" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="sCyOnHdx_f6JQvQr4W9k-724" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Event_Hubs.svg;" vertex="1" parent="1">
+        <mxCell id="sCyOnHdx_f6JQvQr4W9k-724" value="Input Event hub" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Event_Hubs.svg;" vertex="1" parent="1">
           <mxGeometry x="520" y="220" width="67" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sCyOnHdx_f6JQvQr4W9k-726" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startFill=1;startSize=4;endArrow=blockThin;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4284F3;strokeWidth=2;fontSize=12;fontColor=#000000;align=center;dashed=0;" edge="1" parent="1" source="sCyOnHdx_f6JQvQr4W9k-724">
@@ -42,7 +42,7 @@
         <mxCell id="sCyOnHdx_f6JQvQr4W9k-756" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.957;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sCyOnHdx_f6JQvQr4W9k-728" target="sCyOnHdx_f6JQvQr4W9k-724">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="552" y="535" />
+              <mxPoint x="552" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -123,6 +123,18 @@
             <Array as="points" />
             <mxPoint x="486.20000000000005" y="548.2159999999999" as="sourcePoint" />
             <mxPoint x="540" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sCyOnHdx_f6JQvQr4W9k-758" value="output Event hub" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/iot/Event_Hubs.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="67" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sCyOnHdx_f6JQvQr4W9k-761" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;labelBackgroundColor=none;startFill=1;startSize=4;endArrow=blockThin;endFill=1;endSize=4;jettySize=auto;orthogonalLoop=1;strokeColor=#4284F3;strokeWidth=2;fontSize=12;fontColor=#000000;align=center;dashed=0;entryX=0.973;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sCyOnHdx_f6JQvQr4W9k-758">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="162" y="193" />
+            </Array>
+            <mxPoint x="162" y="370" as="sourcePoint" />
+            <mxPoint x="512" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
